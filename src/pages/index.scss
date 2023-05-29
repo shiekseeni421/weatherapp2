@@ -1,0 +1,86 @@
+.Home-container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  .from-el {
+    background-color: #2557e7;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .InputEl {
+    height: 25px;
+    outline: none;
+    text-transform: capitalize;
+  }
+
+  .Button-el {
+    background-color: #11658f;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.weather-page {
+  height: 100vh;
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .weather-head {
+    text-align: center;
+  }
+
+  .btn-el {
+    background-color: #2557e7;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  .weather-card {
+    background-color: #11658f;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weather-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .main-tem {
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  .gry-class {
+    color: lightgray;
+    font-size: 12px;
+    text-align: right;
+  }
+}
